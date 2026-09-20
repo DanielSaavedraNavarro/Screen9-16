@@ -11,6 +11,10 @@ endif()
 
 add_subdirectory($ENV{GEODE_SDK} ${CMAKE_BINARY_DIR}/geode)
 
-file(GLOB_RECURSE SOURCES src/*.cpp)
+file(GLOB_RECURSE SOURCES
+    src/*.cpp
+)
+
+add_library(${PROJECT_NAME} SHARED ${SOURCES})
 
 setup_geode_mod(${PROJECT_NAME})

@@ -1,1 +1,14 @@
-{}
+{
+    "geode": "4.0.0",
+    "gd": {
+        "android": "2.2081"
+    },
+    "id": "dani.force9x16",
+    "name": "Force 9:16",
+    "version": "v1.0.0",
+    "developer": "Dani",
+    "description": "Forces a 9:16 viewport in Geometry Dash Android.",
+    "links": {
+        "source": "https://github.com/"
+    }
+}

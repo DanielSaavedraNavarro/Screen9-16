@@ -16,7 +16,7 @@ jobs:
         id: build
         uses: geode-sdk/build-geode-mod@main
         with:
-          target: Android64
+          target: Android32
           sdk: given
 
       - name: Upload .geode
